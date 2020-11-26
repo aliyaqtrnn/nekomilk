@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(146, 78, 93);
+    color: rgb(250, 185, 199);
+    padding: 10px;
+    height: 9vh;
+}
+
+header .logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+header .menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu {
+    padding-bottom: -10px;
+    margin-top: -40px;
+}
+
+ul li {
+    display: inline-block;
+    float: right;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(146, 78, 93);
+    background-color: rgb(250, 185, 199);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+ul li a:hover{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0px 1px 18px white
+}
+
+.login{
+    margin-left: -15px;
+    border-radius: 20px;
+}
+/* End Header */
+
+/* Content */
+.one {
+    background-image: url(https://ae01.alicdn.com/kf/HTB1VDVHXNTpK1RjSZR0q6zEwXXaG/Warna-Solid-Diri-Menempel-Wallpaper-Kamar-Tidur-Ruang-Tamu-Latar-Belakang-Seni-Kertas-Dinding-Dekorasi-Rumah.jpg_640x640.jpg);
+    background-size: cover;
+    height: 600px;
+    color: black;
+}
+
+.greet h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(146, 78, 93);
+    text-align: center;
+    padding-top: 150px;
+    font-size: 90px;
+}
+
+.ticket h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:  rgb(146, 78, 93);
+    font-size: 50px;
+}
+
+.foreword h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:rgb(146, 78, 93);
+    font-size: 30px;
+    padding-bottom: 70px;
+   padding-left: 20px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(250, 185, 199);
+    background-color:rgb(146, 78, 93);
+    margin-left: 640px;
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+.contact-us :hover{
+    background-color:  rgb(250, 185, 199);
+    padding: 10px 40px;
+    color: rgb(146, 78, 93);
+    box-shadow: 0px 1px 18px white
+}
+/* End Content */
+
+/* Footer */
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(146, 78, 93);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+footer h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+/* End Footer */
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    .one .greet h2{
+        margin-left: 220px;
+        font-size: 30px;
+    }
+
+    .ishvara h1{
+        font-size: 70px;
+        margin-left: 300px;
+        padding-left: 50px;
+        text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    }
+
+    .contact-us a{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 15px; 
+    }
+}
+/* End Tablet */
+
+
+/* Handphone */
+@media screen and (max-width: 576px){
+    ul li{
+        padding: 25px 10px;
+    }
+
+    .menu ul li a{
+        padding: 10px 15px;
+    }
+
+    header .logo{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .one .greet h2{
+        margin-left: 180px;
+        font-size: 20px;
+    }
+
+    .one .greet h1{
+        font-size: 50px;
+        margin-left: 90px;
+    }
+
+    .foreword p{
+        font-size: 17px;
+    }
+    
+    .contact-us a{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+}
+/* End Handphone */
